@@ -1,0 +1,174 @@
+body {
+    background-color: black;
+}
+
+.wb-search-bar-text {
+    border-radius: 50px;
+}
+
+.wb-explore-settings {
+    padding-left: 12px;
+}
+
+.wb-search-bar-text::placeholder {
+    color: white;
+    background-color: darkgray;
+}
+
+.wb-explore-buttons {
+    padding-top: 16px;
+}
+
+.wb-explore-buttons a {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.wb-for-you {
+    color: rgb(29,161,242);
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-style: solid;
+}
+
+.wb-for-you{
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wb-trending{
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wb-covid{
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wb-sports{
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wb-post-with-image {
+    width: 90%;
+    float: left;
+}
+
+.wb-title {
+    color: white;
+}
+
+.wb-tweets {
+    color: lightgray;
+}
+
+.wb-fifth-post .wb-title {
+    color: lightgray;
+}
+
+.wb-article-img {
+    border-radius: 20px;
+    margin-right: 16px;
+}
+
+.wb-post p.wb-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wb-author {
+    color: white;
+}
+
+.wb-search-bar-text {
+    width: 500px;
+}
+
+.wb-bookmark-header {
+    color: white;
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+.wb-bookmark-author {
+    color: lightgray;
+    padding-left: 16px;
+    font-size: 13px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-bottom: 12px;
+
+}
+
+.wb-post .wb-post-avatar {
+    border-radius: 48px;
+    float: left;
+    padding-bottom: 500px;
+}
+
+.wb-post-author-handle {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wb-post-author-name {
+    font-size: 15px;
+    color: white;
+    padding-left: 12px;
+}
+
+.wb-post-time {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.wb-post-header {
+    position: relative;
+    float: left;
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+.wb-post-with-image {
+    position: relative;
+    float: left;
+}
+
+.wb-post-text {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+}
+
+.wb-post-text-block {
+    position: relative;
+    float: left;
+    right: 225px;
+    top: 30px;
+    margin-bottom: 12px;
+}
+
+.wb-post-image {
+    position: relative;
+    float: left;
+    padding-left: 12px;
+}
+
+.wb-post-image img {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.wb-post-image-text {
+    color: white;
+    padding: 12px;
+}
+
+.wb-post-title {
+    color: white;
+    font-size: 15px;
+}
