@@ -11,7 +11,7 @@ const PostSummaryItem = (
         }
     }) => {
     return(<div className="ps-2 pt-1 wb-post wb-first-post">
-                    <img className= "me-2 rounded wb-article-img float-right wb-third-post-img" src={post.image} width="100px"/>
+                    <img className= "me-2 rounded wb-article-img float-right wb-third-post-img" src={post.image} width="100px" alt=""/>
                     <span className="wb-topic">{post.topic}</span><br/>
                     <span className="font-weight-bold wb-title">{post.userName}</span>
                     <span className="wb-date">* {post.time}</span><br/>
