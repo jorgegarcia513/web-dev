@@ -12,7 +12,7 @@ const WhoToFollowListItem = (
     <tr>
         <td className="who-to-follow-entry">
         <img className="me-1 rounded-circle who-to-follow-pfp"
-             src={who.avatarIcon} width="30" height="30"/>
+             src={who.avatarIcon} width="30" height="30" alt=""/>
             <span className="who-to-follow-name">{who.userName}</span>
             <i className="fa fa-check-circle"></i>
         <span className="who-to-follow-handle">@{who.handle}</span>

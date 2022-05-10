@@ -5,7 +5,7 @@ const ExploreComponent = () => {
         <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-7 main-feed">
                 <div className="search-bar-box">
                     <input type="text" placeholder="Search Tuiter" className="rounded search-bar"/>
-                    <img className="settings-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Gear_icon-72a7cf.svg/1200px-Gear_icon-72a7cf.svg.png" width="20" height="20"/>
+                    <img className="settings-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Gear_icon-72a7cf.svg/1200px-Gear_icon-72a7cf.svg.png" width="20" height="20" alt=""/>
                 </div>
             <ul className="nav mb-2 nav-tabs">
                 <li className="class-item">
@@ -25,7 +25,7 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div>
-                <img className="border" src="https://media.wtsp.com/assets/WTSP/images/657c2b38-486d-467b-8f35-ba1014ff5c61/657c2b38-486d-467b-8f35-ba1014ff5c61.png" width="100%"/>
+                <img className="border" src="https://media.wtsp.com/assets/WTSP/images/657c2b38-486d-467b-8f35-ba1014ff5c61/657c2b38-486d-467b-8f35-ba1014ff5c61.png" width="100%" alt=""/>
             </div>
             {PostSummaryList()}
         </div>
