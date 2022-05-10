@@ -17,10 +17,10 @@ function App() {
                     <Route path="/hello"
                            exact={true}
                            element={<HelloWorld/>}/>
-                    <Route path="/"
+                    <Route path="/labs"
                            exact={true}
                            element={<Labs/>}/>
-                    <Route path="/tuiter"
+                    <Route path="/"
                            exact={true}
                            element={<Tuiter/>}/>
                 </Routes>
