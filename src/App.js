@@ -23,6 +23,7 @@ function App() {
                     <Route path="/"
                            exact={true}
                            element={<Tuiter/>}/>
+
                 </Routes>
             </div>
         </BrowserRouter>
