@@ -1,15 +1,13 @@
 import React from 'react';
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats";
+import {deleteTuit} from "../actions/tuits-actions";
 
 
 const TuitListItem = ({tuit}) =>
 {
 
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})
-    };
     var videoLink;
     if (tuit.hasOwnProperty('attachments'))
     {
@@ -20,12 +18,11 @@ const TuitListItem = ({tuit}) =>
             <td className="tuit-list-entry">
                 <img className= "me-1 rounded" src={tuit.avatar_image} width="20px" alt=""/>
                 <span className="h5 topic">{tuit.topic} </span>
-                <span className="user">{tuit.postedBy.username}</span>
-                <i onClick={() => deleteTuit(tuit)} className="fas fa-remove fa-2x fa-pull-right"> </i><br/>
+                <span className="user">{tuit.username}</span>
                 <p className="wb-description">{tuit.tuit}</p>
-
                 <TuitStats tuit={tuit}/>
             </td>
+            <i className="fas fa-remove float-end" onClick={() => deleteTuit(dispatch, tuit)}/>
         </tr>
     );
 }
